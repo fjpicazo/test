@@ -6,9 +6,6 @@ public class Account {
 	private String name;
 	
 	// Constructor
-	public Account(double balance) {
-		this("Unknown", balance);
-	}
 	
 	// Constructor but better
 	public Account(String name, double balance) {
