@@ -4,8 +4,183 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odyssey Trailers</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 5px 0 0;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: url('images/hero-placeholder.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero h2 {
+            font-size: 2.5em;
+        }
+
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .section h3 {
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 250px;
+            text-align: left;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .product h4 {
+            margin: 0 0 10px;
+            font-size: 1.2em;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hola Mich :)</h1>
+    <header>
+        <h1>Odyssey Trailers</h1>
+        <p>Steadfast Trailers for Every Odyssey</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Durable. Reliable. Built to Last.</h2>
+    </div>
+
+    <section id="about" class="section">
+        <h3>About Us</h3>
+        <p>At Odyssey Trailers, we pride ourselves on being a dedicated small business that prioritizes quality over quantity. Every trailer we craft is built using the finest materials on the market, ensuring unmatched durability and reliability for every journey. Whether you’re hauling equipment or embarking on a personal adventure, Odyssey Trailers is committed to delivering products that you can trust, every mile of the way.</p>
+    </section>
+
+    <section id="products" class="section">
+        <h3>Our Trailers</h3>
+        <div class="products">
+            <div class="product">
+                <h4>6 X 10 SA</h4>
+                <p>Single axle trailer, perfect for smaller loads.</p>
+            </div>
+            <div class="product">
+                <h4>6 X 12 SA</h4>
+                <p>Single axle trailer, ideal for compact utility needs.</p>
+            </div>
+            <div class="product">
+                <h4>7 X 12 SA</h4>
+                <p>Larger single axle trailer for versatile use.</p>
+            </div>
+            <div class="product">
+                <h4>7 X 14 TA</h4>
+                <p>Tandem axle trailer for increased capacity.</p>
+            </div>
+            <div class="product">
+                <h4>7 X 16 TA</h4>
+                <p>Tandem axle trailer for heavier loads.</p>
+            </div>
+            <div class="product">
+                <h4>8.5 X 16 TA</h4>
+                <p>Spacious tandem axle trailer for large items.</p>
+            </div>
+            <div class="product">
+                <h4>8.5 X 20 TA</h4>
+                <p>Heavy-duty tandem axle trailer for substantial loads.</p>
+            </div>
+            <div class="product">
+                <h4>8.5 X 24 TA</h4>
+                <p>Extra-large tandem axle trailer for maximum capacity.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h3>Contact Us</h3>
+        <p>Phone: <a href="tel:1234567890">123-456-7890</a></p>
+        <p>Email: <a href="mailto:info@odysseytrailerllc.com">info@odysseytrailerllc.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Odyssey Trailers. All rights reserved.</p>
+        <a href="https://facebook.com">Facebook</a>
+        <a href="https://instagram.com">Instagram</a>
+    </footer>
 </body>
 </html>
+
